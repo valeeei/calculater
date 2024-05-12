@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.button {
+    width: 50px;
+    height: 60px;
+    font-size: 40px;
+    margin: 9px;
+    cursor: pointer;
+    font-family: 'garamond', sans-serif;
+    background: rgb(241, 165, 146 );
+    color: white;
+    border: none;
+}
+
+.textview {
+    width:297px;
+    margin: 5px;
+    font-size: 30px;
+    padding: 6px;
+    background: rgb(249, 216, 192  );
+    border: none;
+    font-family: 'arial', sans-serif;
+}
+
+.button_0 {
+    width: 149px;
+}
+
+.button_equal {
+    height: 120px;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+     margin: 50px auto;
+    padding: 20px;
+    width: 300px;
+    border: 2px solid #333; /* Borde */
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8); /* Color de fondo con transparencia */
+
+}
+
+h1{
+    font-family: 'arial';
+    text-align: left;
+    color: rgb(47, 53, 65 );
+}
+
+body{
+    background: blu;
+    height: 100%;
+    width: 189px;
+     background-image: url('ata.jpg'); /* Reemplaza 'ruta/a/tu/imagen.jpg' con la ruta de tu imagen */
+    background-size: cover; /* Para asegurarse de que la imagen de fondo cubra todo el cuerpo */
+    background-color: #f0f0f0;
+}
+
+
